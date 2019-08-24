@@ -1,0 +1,255 @@
+*{
+         padding: 0;
+         margin: 0;
+ }
+header{
+  background-color: #ffffff;
+
+}
+main{
+  background-color: #ffffff; 
+    margin-top: 12px;
+     }
+     
+footer {
+  background-color: #ffffff;
+border-top: 1px solid  #fe4918;
+
+
+}
+
+    div.izquierda{
+         float: left;
+         width: 25%;
+        background-color: rgba(43,135,157,1);
+        padding-bottom: 24px;
+     }
+div.headertop{
+ height: 100%;   
+}
+
+div.centro{
+border-bottom: 0px;
+border-top: 0px;
+width: 75%;
+border-color: #8BD9EC;
+float: right;
+
+
+}
+
+div.foto-cv{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    margin-top: 20px;
+}
+div.foto-cv img{
+    height: 100%;
+    width: 100%; 
+}
+h3 {
+    font-size: 1.8em;
+    color: #fe4918;
+    font-family: 'PT Sans', sans-serif;
+    margin-top: 8px;
+    text-align: center;
+}
+h2{
+    color: #ffffff;
+    text-align: center;
+    margin-top: 10px;
+}
+p{
+    color: #ffffff;
+    margin-left: 6px;
+    text-align: justify;
+    margin-right: 6px;
+    font-size: 1.1em;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+h2.subtitulos{
+   color: #fb8a30;
+}
+
+}
+nav.redes-sociales{
+    text-align: justify;
+    margin-left: 1px;
+}
+nav.redes-sociales a {
+  font-size: 1.1em;
+  margin-left: 6px;
+    display: block;
+    margin-top: 16px;
+    text-decoration: none;
+    margin-right: 16px;
+    color: #ffffff;
+}
+
+nav.redes-sociales a i.fa-mobile{
+    color: #fe4918;
+    margin-right: 10px;
+    font-size: 1.6em;
+}
+nav.redes-sociales a i.fa-at{
+    color: #db4437;
+    margin-right: 10px;
+    font-size: 1.6em;
+}
+
+nav.redes-sociales a i.fa-facebook{
+    color: #fff;
+    margin-right: 10px;
+    font-size: 1.6em;
+  
+}
+nav.redes-sociales a i.fa-map-marker{
+    color: #bbdaa4;
+    margin-right: 10px;
+    font-size: 1.6em;
+  
+}
+nav.redes-sociales a i.fa-globe{
+    color: #fe4918;
+    margin-right: 10px;
+    font-size: 1.6em;
+  
+}
+header h3 i.fa-book{
+  color: #fe4918;
+  margin-right: 10px;
+  font-size: 1em;   
+}
+ h3 i.fa-language{
+   color: #fe4918;
+  margin-right: 10px;
+  font-size: 1em;    
+}
+ h3 i.fa-wrench{
+   color: #fe4918;
+  margin-right: 10px;
+  font-size: 1em;    
+}
+h3 i.fa-pencil{
+   color: #fe4918;
+  margin-right: 10px;
+  font-size: 1em;    }
+
+
+
+h3.formacion{
+    font-size: 1.8em;
+    color: #fe4918;
+    font-family: 'PT Sans', sans-serif;
+    margin-top: 0px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+div.universidad{
+    width: 49%;
+    float: left;
+    border-right: 1px solid #fe4918;
+}
+div.colegio{
+    width: 50%;
+    float: right;
+}
+
+p.descripcion{
+    color: #878777;
+}
+li{
+    list-style: none;
+}  
+
+section.conocimientos{
+    width: 49%;
+    float: left;
+    border-right: 1px solid #fe4918;
+}
+section.otros-conocimiento{
+    width: 50%;
+    float: right;
+}
+div.nombre-herramienta{
+    width: 50%;
+    float: left;
+}
+div.nivel{
+    width: 50%;
+    float: right;
+}
+
+
+progress {
+ /* Quitando estilos predeterminados */
+ -webkit-appearance: none;
+ appearance: none;
+  width: 120px;
+}
+
+progress::-webkit-progress-value {
+
+background-color: #fe4918;
+}
+
+section.intereses{
+    width: 50%;
+    float: right;
+    margin-top: 15px;
+}
+
+div.herramientas{
+width: 100%;
+padding-bottom:20px; 
+    
+}
+
+section.desarrollo-web{
+   width: 29%;
+    float: left;
+    border-right: 1px solid #fe4918;
+
+}
+section.analisis{
+    width: 39%;
+    float: right;
+    border-right: 1px solid #fe4918;
+}
+section.ofimatica{
+  width: 30%;
+    float: right;  
+}
+
+div.div-general{
+ width: 100%;
+}
+div.logo-imagen{
+  width: 45%;
+  float: left;
+  padding-left: 9px;
+    
+}
+div.nivel-herramienta{ 
+    width: 50%;
+    float: right;
+     padding-top: 10px;
+
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
